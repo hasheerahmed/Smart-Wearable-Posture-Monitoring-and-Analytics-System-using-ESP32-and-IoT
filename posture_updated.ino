@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL3BFXkOUc3"
-#define BLYNK_TEMPLATE_NAME "Posture correction"
+#define BLYNK_TEMPLATE_ID "xxxxxxxxxxxxxx"
+#define BLYNK_TEMPLATE_NAME "xxxxxxxx xxxxxxx"
 #define BLYNK_AUTH_TOKEN "DXqcm0KYGIvD3BhY7L9CYlo89pCZIzxo"
 #define BLYNK_PRINT Serial
 
@@ -12,10 +12,10 @@
 #include <time.h>
 
 // -------- WIFI --------
-char ssid[] = "Hasheer's M35";
-char pass[] = "123456789";
+char ssid[] = "WIFI name";
+char pass[] = "WIFI password";
 
-String GOOGLE_SCRIPT_ID = "AKfycbyFPjWPoAhmFV4IkpW-OvpaZ4xzsl2st1k05qVtATJoG2T3Hf1iF8Un2070jxnDYNvm-g";
+String GOOGLE_SCRIPT_ID = "xxxxxxxxxxxxxxx";
 
 Adafruit_MPU6050 mpu;
 BlynkTimer timer;
